@@ -1,0 +1,16 @@
+@import "../../Theme/_var.scss";
+
+.header-style {
+  padding: 2rem;
+  .navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 500;
+    @media (max-width: 767px) {
+      font-size: 1.2rem;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}

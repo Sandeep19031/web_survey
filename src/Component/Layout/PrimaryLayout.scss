@@ -1,0 +1,16 @@
+@import "../../Theme/_var.scss";
+
+.primary-layout {
+  position: relative;
+ // height: 100%;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    //background: url(../../Theme/Assets/Images/bgImage.png) no-repeat;
+    background-size: 100% 100%;
+  }
+}

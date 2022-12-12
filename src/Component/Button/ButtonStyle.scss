@@ -1,0 +1,67 @@
+@import "../../Theme/_var.scss";
+
+.button-style {
+  padding: 1.4rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: all 0.25s linear;
+  background: $gradient;
+  color: $white;
+  border: 1px solid $baseColor;
+  min-width: 16.4rem;
+  @media (max-width: 767px) {
+    min-width: 12rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+  &.border-btn {
+    color: $baseColor;
+    background: $white;
+    border: 0.1rem solid $borderColor;
+    &:hover {
+      color: $white;
+      background: $baseColor;
+    }
+  }
+}
+
+.active_Buy {
+  width: 50%;
+  background: $gradient-5; 
+}
+.inactive_Buy {
+  background: $white;
+  color: $dark;
+  width: 50%;
+}
+
+
+.active_Sell {
+  width: 50%;
+  background: $gradient-4;
+}
+.inactive_Sell {
+  background: $white;
+  color: $dark;
+  width: 50%;
+}
+
+.Submit_Sell  {
+  background: $gradient-4;
+  width: 100%;
+}
+.Submit_Buy {
+  background: $gradient-5; 
+  width: 100%;
+}
+
+.order-delete {
+  background: $red;
+  min-width: 10.4rem;
+  padding: 0.2rem 0.2rem;
+}
